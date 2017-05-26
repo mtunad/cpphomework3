@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int sales[150][5];
-    char choice = 1;
+    char flag = 1;
     int day = 0, row = 0;
 
     for (int i = 0; i < 4; i++)
@@ -35,10 +35,10 @@ int main() {
             sales[row][3] = day + 1;
 
             cout << endl << "Do you want to enter one more Y/N: ";
-            cin >> choice;
+            cin >> flag;
 
             row++;
-        } while(tolower(choice) != 'n');
+        } while(tolower(flag) != 'n');
         day++;
     } while(day < 30);
 

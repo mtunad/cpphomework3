@@ -6,7 +6,6 @@ using namespace std;
 
 #include "IntegerSet.h"
 
-
 IntegerSet::IntegerSet() {
     for (int i = 0; i < 101; i++) {
         set[i] = false;
@@ -77,7 +76,6 @@ int main() {
     cout << "Intersection: ";
     a.intersectionSet(b, c);
     c.printSet();
- 
- 
+  
     return 0;
 }

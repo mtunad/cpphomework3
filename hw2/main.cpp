@@ -233,7 +233,7 @@ int main()
       cout << " is less than ";
       n2.output(); 
       cout << "\n\n";  
-   } // end if 
+   }
     
    if ( n4.isLessThanOrEqualTo( n4 ) == true )
    {
